@@ -1,10 +1,12 @@
 from Robots.charlier import Charlier
-from Robots.RLBotMinimal import ReinforcementLearningBotMinimal
+from Robots.RLBot_Tjark_Nitsche import ReinforcementLearningBotTjark
+
 from AI.RLBotTraining_minimal import Training
 
 botList = []
 #your bot
-bot = ReinforcementLearningBotMinimal
+bot = ReinforcementLearningBotTjark
+
 botList.append((bot, True))
 #enemy
 bot = Charlier
